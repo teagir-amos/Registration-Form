@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        background: lightcoral;
+    }
+    
+    h3 {
+        font-size: 40px;
+        line-height: 60px;
+        color: white;
+    }
+    
+    .heading {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    .paragraph {
+        color: #fff;
+        font-size: 12px;
+    
+    }
+    
+    .button {
+        display: flex;
+    }
+    
+    .button input {
+        background-color: blueviolet;
+        width: 400px;
+        height: 4rem;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 10px;
+    }
+    
+    
+    .container {
+        max-width: 500px;
+        background: whitesmoke;
+        padding: 25px 30px;
+        border-radius: 10px;
+    }
+    
+    .container .title {
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .username input{
+        width: 400px;
+        height: 20px;
+        border-radius: 2px;
+    }
+    .useremail input{
+        width: 400px;
+        height: 20px;
+        border-radius: 2px;
+    }
+    .userpassword input {
+        width: 400px;
+        height: 20px;
+        border-radius: 2px;
+     }
+    .confirm input {
+        width: 400px;
+        height: 20px;
+        border-radius: 3px;
+    }
+
+    .user-details .button {
+        height: 30px;
+        margin: 0px
+    }
+    
+    .user-details .button input {
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-color: green ;
+        border-radius: 8px;
+    }
+    
+    @media screen and (max-width:480px){
+        body {
+            height: 100vh;
+            background: darkmagenta;
+            padding-right: 35px;
+            padding-top: 15px;
+        }
+                  
+        .button input {
+            background-color: blueviolet;
+            width: 300px;
+            height: 4rem;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 10px;
+        }
+        .container{
+            width: 300px;
+        }
+        
+        .username input {
+            width: 250px;
+        }
+        .useremail input{
+            width: 250px;
+        }
+        .userpassword input{
+            width: 250px;
+        }
+        .confirm input{
+            width: 250px;
+        }
+
+        h3 {
+            font-size: 20px;
+            line-height: 10px;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .paragraph {
+            padding-left: 20px;
+        }
+    }
+    
+        @media screen and (max-width:300px) {
+            body {
+                display: block;
+                height: 100vh;
+                justify-content: flex-end;
+                align-items: center;
+                padding-left: 35px;
+                background: darkmagenta;
+            }
+            
+            .username input {
+                width: 100px;
+            }
+            
+            .useremail input {
+                width: 100px;
+            }
+            
+            .userpassword input {
+                width:100px;
+            }
+            
+            .confirm input {
+                width: 100px;
+            }
+        }
+    
